@@ -1,10 +1,10 @@
-﻿#include <iostream>
+#include <iostream>
 #include<ctime>
+#include <cstdlib>
 using namespace std;
 
-/*Найти самое маленькое число в массиве и вывести его не экран*/
 
-void main()
+int main()
 {
 	setlocale(LC_ALL, "ru");
 
@@ -37,7 +37,7 @@ void main()
 
 	}
 
-	// поиск минимального элемента массива
+
 
 	int minValue = arr[0];
 
@@ -49,5 +49,5 @@ void main()
 		}
 	}
 
-	cout << "Наименьшее число в массиве " << minValue << endl;
+	cout << "minvalue " << minValue << endl;
 }

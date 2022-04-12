@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include<math.h>
 
 using namespace std;
@@ -7,7 +7,7 @@ float func(float x);
 
 int factor(int s);
 
-void main() {
+int main() {
 	setlocale(LC_ALL, "rus");
 	for (float i = -2; i <= 3; i += 0.5) {
 		cout << func(i) << endl;

@@ -1,30 +1,18 @@
-ï»¿#include <iostream>
-#include <ctime>
+#include <iostream>
 
 using namespace std;
 
-void f(I,Familiar) {
-	Char Iw = "W";
-	Char Fw = "L";
-	if (I == Familiar) {
-		cout << "Draw";
-	}
-	else((I == 0 & Familiar == 1) % (I == 1 & Familiar == 2) % (I == 2 & Familiar == 0) {
-		return Iw;
-	}
-	else() {
-	return Fw;
-}
+int main(){
+	setlocale(LC_ALL,"rus");
+	float a,b;
+	cout<<"ââåäèòå ïåðâîå ÷èñëî:"<<endl;
+	cin>>a;
+	cout<<"ââåäèòå âòîðîå ÷èñëî:"<<endl;
+	cin>>b;
+	cout<<(a+b)*(a+b);
+	
+	
+	return 0;
 }
 
-void main() {
-	srand(time(NULL));
-	const int size = 3;
-	int choice;
-	int I;
-	cout << "Ð’Ñ‹Ð±ÐµÑ€ÐµÑ‚Ðµ:" << endl << "1.ÐšÐ°Ð¼ÐµÐ½ÑŒ\n2.ÐÐ¾Ð¶Ð½Ð¸Ñ†Ñ‹\n3.Ð‘ÑƒÐ¼Ð°Ð³Ð°";
-	cin >> choice;
-	I = choice;
-	Y = rand() % 3;
-	cout << "Ð˜Ð³Ñ€Ð¾Ðº Ð²Ñ‹Ð±Ñ€Ð°Ð»:" << Y << f(I, Y) << end;
-}
+	
